@@ -21,5 +21,5 @@ Write-Host "Your GPU: " -NoNewline; Write-Host $gpu.Name
 Write-Host "Your RAM: " -NoNewline; Write-Host $totalRam -NoNewline; Write-Host "GB"
 Write-Host "------------------------------------------------"
 Write-Host "Your MAIN HDD/SSD is at " -NoNewline; Write-Host $hddUsedSpace "GB/" -NoNewline; Write-Host $hddTotalSpace -NoNewline; Write-Host "GB"
-Write-Host "You still have " -NoNewline; Write-Host $hddFreeSpace "GB or " -NoNewline; Write-Host $hddUsedPercentage "%"
+Write-Host "You still have " -NoNewline; Write-Host $hddFreeSpace "GB or " -NoNewline; Write-Host $hddUsedPercentage "% free"
 
